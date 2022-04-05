@@ -1,4 +1,6 @@
-import './style.css'
+import "./style.css";
+import {gsap} from "gsap";
+
 
 document.querySelector('#app').innerHTML = `
   <h1>Florida!</h1>
