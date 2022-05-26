@@ -6,30 +6,41 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Vite App</title>
   </head>
+  <ul>
+    <li><a href="#">Home</a></li>
+    <li><a href="#Cities">Cities</a></li>
+    <li><a href="#Attractions">Attractions</a></li>
+    <li><a href="#Restaurants">Restaurants</a></li>
+  </ul>
+   <div class="back"></div>
   <body>
     <h1>Cities</h1>
-    <section class="Cities"></section>
-      <div class="Jacksonville"></div>
-        <img
+    <section class="Cities" id="Cities"></section>
+      <div class="Jacksonville">
+      <img
           class="cities-img"
           src="img/jcville.jpg"
           alt="Jacksonville"
-        />
-        <header>Jacksonville</header>
-        <p class="cities-desc">
-          The largest city in Florida and in the southeastern United States,
-          Jacksonville offers something for everyone. Professionals will find 
-          plenty of jobs and a booming economy; families will find top-rated 
-          schools and a number of cultural attractions; and retirees will find
-          a number of affordable  neighborhoods and reasonably priced 
-          real estate. The city is also home to Florida's third largest seaport.
-        </p>
-      <div class="Miami"></div>
+      />
+      <div class="cities-desc-container">
+      <header>Jacksonville</header>
+      <p class="cities-desc">
+        The largest city in Florida and in the southeastern United States,
+        Jacksonville offers something for everyone. Professionals will find 
+        plenty of jobs and a booming economy; families will find top-rated 
+        schools and a number of cultural attractions; and retirees will find
+        a number of affordable  neighborhoods and reasonably priced 
+        real estate. The city is also home to Florida's third largest seaport.
+      </p>
+      </div>
+      </div>
+      <div class="Miami">
         <img
-          class="cities-img"
-          src="img/miami.jpg"
-          alt="Miami"
+            class="cities-img"
+            src="img/miami.jpg"
+            alt="Miami"
         />
+        <div class="cities-desc-container">
         <header>Miami</header>
         <p class="cities-desc">
           Stunning beaches, outstanding restaurants and an exciting social 
@@ -40,25 +51,30 @@
           scene, with several arts districts, famous art shows, galleries and 
           museums located throughout the city. 
         </p>
-        <div class="Orlando"></div>
-        <img
-          class="cities-img"
-          src="img/orlando.jpg"
-          alt="Orlando"
-        />
-        <header>Orlando</header>
-        <p class="cities-desc">
-          Everyone from retirees and families to young professionals and 
+        </div>
+        </div>
+        <div class="Orlando">
+          <img
+              class="cities-img"
+              src="img/orlando.jpg"
+              alt="Miami"
+          />
+          <div class="cities-desc-container">
+          <header>Orlando</header>
+          <p class="cities-desc">
+            Everyone from retirees and families to young professionals and 
           singles will find what they’re looking for in Orlando. Known for its 
           many tourist attractions, including Disney World and Universal 
           Studios, the City of Orlando is one of the most visited destinations 
           in the country. Residents can take advantage of local discounts 
           on attractions as well asthe many job opportunities available 
           within the theme parks. Outside of the city, families will find plenty 
-          of other kid-friendly activities and top-rated schools. 
-        </p>
+          of other kid-friendly activities and top-rated schools.  
+          </p>
+          </div>
+          </div>
         <h2>Attractions</h2>
-    <section class="Attractions"></section>
+    <section class="Attractions" id="Attractions"></section>
       <div class="Walt Disney World"></div>
         <img
           class="attractions-img"
@@ -105,7 +121,7 @@
           the contiguous United States after Death Valley and Yellowstone. 
         </p>
         <h3>Restaurants</h3>
-        <section class="Restaurants"></section>
+        <section class="Restaurants" id="Restaurants"></section>
        <div class="Joe's Stone Crab"></div>
             <img
               class="restuarants-img"
@@ -153,9 +169,8 @@
             and black beans, or visit the outdoor takeaway window and grab your morning guava 
             pastries and cafe cubano.
             </p>
-    
-    
-    
+            
+            
     
     
         <div id="app"></div>
